@@ -1,6 +1,6 @@
 body {
   color: #CC0033;
-  font-family: 'Roboto', sans-serif;;
+  font-family: 'Roboto', sans-serif;
 }
 
 .profile-pic {
@@ -13,8 +13,7 @@ body {
   margin-top: 20%;
   margin-right: 0;
   margin-left: 10%;
-  margin-bottom: 10
-  %;
+  margin-bottom: 10;
   width: 86%;
   text-align: center;
 }
@@ -33,7 +32,7 @@ h1 {
 
 h2 {
   margin-bottom: 50px;
-  font-size: 75%
+  font-size: 75%;
   text-align: center;
 }
 
@@ -45,7 +44,7 @@ p {
   color: #000000;
 }
 
-/* only signigicant in index.html */
+/* only significant in index.html */
 
 ul {
   margin: 4vw auto;
@@ -100,7 +99,7 @@ ul li div {
 
 #top {
   color: #0000ff;
-  font-size: 80%
+  font-size: 80%;
 }
 
 /* All below pertain to Footer */
