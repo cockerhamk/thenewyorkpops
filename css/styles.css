@@ -1,0 +1,120 @@
+body {
+  color: #CC0033;
+  font-family: 'Roboto', sans-serif;;
+}
+
+.profile-pic {
+  position: absolute;
+  left: 41%;
+  top: 50%;
+}
+
+.profile-paragraphs {
+  margin-top: 20%;
+  margin-right: 0;
+  margin-left: 10%;
+  margin-bottom: 10
+  %;
+  width: 86%;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  object-fit:  cover;
+  object-position: 50% 50%;
+}
+
+h1 { 
+  margin: 3vw 10vw 0;
+  font-size: 100%;
+  text-align: right;
+}
+
+h2 {
+  margin-bottom: 50px;
+  font-size: 75%
+  text-align: center;
+}
+
+p {
+  font-size: 14px;
+  clear: both;
+  margin: 0 5vw 0 0;
+  text-align: left;
+  color: #000000;
+}
+
+/* only signigicant in index.html */
+
+ul {
+  margin: 4vw auto;
+  width: 75vw;
+  list-style: none;
+}
+
+li {
+  width: 20vw; 
+  height: 18vw;
+  clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+  float: left;
+  margin-right: 10vw;
+}
+
+li:nth-child(2n) {
+  margin: -9vw -5vw 0 -15vw;  
+}
+
+ul li:hover span {
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 50% 0;
+}
+
+ul li div {
+  background: #ddd;
+  text-align: center;
+  padding: 39% 0;
+  font-size: 30px;
+}
+
+/* Below pertains to Nav bar section*/
+
+.logo {
+  position: absolute;
+  height: 65px;
+  width: 245px;
+  top: 25px;
+  left: 10px;
+}
+
+.header {
+  height: 295px;
+  background-image:url("../images/headerimage.jpg");
+  background-size: cover;
+  opacity: 0.9;
+}
+
+/* Refers to Return to Top Paragraph */
+
+#top {
+  color: #0000ff;
+  font-size: 80%
+}
+
+/* All below pertain to Footer */
+
+.foot {
+  background-color: #000;
+}
+
+#address {
+  padding: 25px;
+  text-align: center;
+}
+
+.pfoot {
+  color: #fff;
+  text-align: center;
+}
